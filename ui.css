@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    background-color: #00001d;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+    font-size: 50px;
+    font-weight: normal;
+}
+.main {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;  
+}
+.btn button {
+    background-color: #000043;
+    color: #ffffff;
+    border: none;
+    border-radius: 100px;
+    padding: 20px;
+    right: 0;
+    font-weight: bold;
+    position: absolute;
+    width: 59px;
+    transition: all .2s ease-in-out; 
+}
+.btn button:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+.list {
+    background-color: #000043;
+    border: none;
+    color: #ffffff;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 15px;
+    font-size: 20px;
+    left: 0;
+    position: absolute;
+}
+.list:hover {cursor: pointer;}
+.list option {
+    background-color: #000043;
+    border: none;
+    color: #ffffff;
+    border-radius: 20px;
+    border: none;
+}
+.list-nopos {
+    background-color: #000043;
+    border: none;
+    color: #ffffff;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 15px;
+    font-size: 20px;
+}
+.list-nopos:hover {cursor: pointer;}
+.list-nopos option {
+    background-color: #000043;
+    border: none;
+    color: #ffffff;
+    border-radius: 20px;
+}
+.btn2 {
+    background-color: #000043;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px;
+    right: 0;
+    position: absolute;
+    width: 59px;
+    transition: all .2s ease-in-out; 
+}
+.btn2:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+.sign {
+    left: 1vh;
+    bottom: 1vh;
+    position: absolute;
+}
+.sign a {
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+}
+.sign a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
